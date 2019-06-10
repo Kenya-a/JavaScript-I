@@ -12,8 +12,7 @@ let myFunction = () => console.log('invoked')()
 // };
 // anotherFunction("Example");
 
-const anotherFunction = param => param.Example
-console.log(param)
+let anotherFunction = param => {return param}
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
